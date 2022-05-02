@@ -8,6 +8,7 @@ public class SqsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SqsApplication.class, args);
+		services.SqsService.sqsService("Hello World");
 	}
 
 }
